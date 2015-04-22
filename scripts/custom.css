@@ -1,0 +1,29 @@
+.navbar-inverse {
+    background-color: #006E00;
+    
+}
+.navbar-inverse .navbar-nav>li>a {
+  color: #FFFFFF;
+}
+.navbar-inverse .navbar-brand {
+  color: #FFFFFF;
+}
+.frontpic
+{  
+    background: url('/hotelApp/images/collage_photocat.jpg');    
+    background-repeat: no-repeat;
+    padding:500px;       
+}
+@media (min-width: 981px) { body { padding-top: 60px; } } 
+
+/*body {
+  padding-top: 60px;
+}
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px;
+  }
+}*/
+a, a:active, a:focus {
+outline: none;
+}
