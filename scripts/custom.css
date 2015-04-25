@@ -10,9 +10,19 @@
 }
 .frontpic
 {  
-    background: url('/hotelApp/images/collage_photocat.jpg');    
-    background-repeat: no-repeat;
-    padding:500px;       
+    display: block;
+  width: 100%;
+  height: 380px;
+    padding: 500px ;
+    background: url('/hotelApp/images/front1.jpg')no-repeat center center;   
+    -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-box-shadow: inset 0 -4px 9px -3px #000;
+  -moz-box-shadow: inset 0 -4px 9px -3px #000;
+  box-shadow: inset 0 -4px 9px -3px #000;
+/*    padding:500px;       */
 }
 @media (min-width: 981px) { body { padding-top: 60px; } } 
 
@@ -26,4 +36,19 @@
 }*/
 a, a:active, a:focus {
 outline: none;
+}
+
+#detailpic {
+  display: block;
+  width: 100%;
+  height: 380px;
+  padding: 20px 0;
+  background: url('../images/bg-snes-closeup-x500.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-box-shadow: inset 0 -4px 9px -3px #000;
+  -moz-box-shadow: inset 0 -4px 9px -3px #000;
+  box-shadow: inset 0 -4px 9px -3px #000;
 }
